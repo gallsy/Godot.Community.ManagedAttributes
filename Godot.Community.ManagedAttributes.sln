@@ -1,8 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "godot-managedattributes", "godot-managedattributes.csproj", "{B9B904F2-4F68-48F1-AEC3-E128A08810F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedAttributes.Example", "examples\basic-usage\ManagedAttributes.Example.csproj", "{317B3D2A-52C5-4502-A63D-FFD6DCD62563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot.Community.ManagedAttributes", "Godot.Community.ManagedAttributes.csproj", "{B9B904F2-4F68-48F1-AEC3-E128A08810F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
