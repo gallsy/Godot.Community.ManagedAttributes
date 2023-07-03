@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/4.0.3">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>Godot.Community.ManagedAttributes</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Godot.Community.ControlBinding" Version="0.3.2" />
+  </ItemGroup>
+</Project>
