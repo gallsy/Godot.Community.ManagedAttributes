@@ -41,6 +41,26 @@ public class ManagedAttributeContainer : IObservableList
         return true;
     }
 
+    public bool Remove(IManagedAttribute attr)
+    {
+        if(Attributes.Contains(attr))
+        {
+            Attributes.Remove(attr);
+            return true;
+        }
+        return false;
+    }
+
+    public bool Remove(string attrName)
+    {
+        var attr = Attributes.Find(a => a.GetName() == attrName);
+        if (attr != null)
+        {
+            return Remove(attr);
+        }
+        return false;
+    }
+
     private void OnAttributeUpdated(IManagedAttribute attribute)
     {
         AttributeUpdated?.Invoke(attribute);
