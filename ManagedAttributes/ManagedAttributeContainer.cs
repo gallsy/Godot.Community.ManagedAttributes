@@ -90,6 +90,11 @@ public class ManagedAttributeContainer : IObservableList
         });
     }
 
+    public List<IManagedAttribute> ToList()
+    {
+        return Attributes.Cast<IManagedAttribute>().ToList();
+    }
+    
     public IList<object> GetBackingList()
     {
         return Attributes.Cast<object>().ToList();
